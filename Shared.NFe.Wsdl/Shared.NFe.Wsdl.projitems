@@ -9,8 +9,56 @@
     <Import_RootNamespace>Shared.NFe.Wsdl</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AdmCsc\NfceCsc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\AN\NFeAutorizacao4AN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\AN\NfeRetAutorizacao4AN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\NfeAutorizacao.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\NfeAutorizacao3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\NFeAutorizacao4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\NfeRetAutorizacao.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\NfeRetAutorizacao3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\NfeRetAutorizacao4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\SVAN\NFeAutorizacao4SVAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\SVAN\NfeRetAutorizacao4SVAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\SVCAN\NFeAutorizacao4SVCAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Autorizacao\SVCAN\NfeRetAutorizacao4SVCAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaCadastro\CE\CadConsultaCadastro2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaCadastro\DEMAIS_UFs\CadConsultaCadastro2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaCadastro\DEMAIS_UFs\CadConsultaCadastro4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaProtocolo\AN\NfeConsultaProtocolo4AN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaProtocolo\NfeConsultaProtocolo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaProtocolo\NfeConsultaProtocolo2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaProtocolo\NfeConsultaProtocolo3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaProtocolo\NfeConsultaProtocolo4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaProtocolo\SVAN\NfeConsultaProtocolo4SVAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConsultaProtocolo\SVCAN\NfeConsultaProtocolo4SVCAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DistribuicaoDFe\NfeDistDFeInteresse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Download\NfeDownloadNF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\AN\RecepcaoEvento4AN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\AN\RecepcaoEvento4ANSVBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\AN\RecepcaoEventoManifestacaoDestinatario4AN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\RecepcaoEPEC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\RecepcaoEvento.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\RecepcaoEvento4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\SVAN\RecepcaoEvento4SVAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Evento\SVCAN\RecepcaoEvento4SVCAN.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)INfeServico.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)INfeServicoAutorizacao.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Inutilizacao\NfeInutilizacao.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Inutilizacao\NfeInutilizacao2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Inutilizacao\NfeInutilizacao3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Inutilizacao\NFeInutilizacao4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Inutilizacao\SVAN\NFeInutilizacao4SVAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)nfeCabecMsg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Recepcao\NfeRecepcao2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Recepcao\NfeRetRecepcao2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status\AN\NfeStatusServico4NFeAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status\NfeStatusServico.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status\NfeStatusServico2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status\NfeStatusServico3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status\NfeStatusServico4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status\SVAN\NfeStatusServico4NFeSVAN.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status\SVCAN\NfeStatusServico4NFeSVCAN.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)NFe.Wsdl.cd" />
